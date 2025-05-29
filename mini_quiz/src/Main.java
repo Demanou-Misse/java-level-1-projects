@@ -58,7 +58,7 @@ public class Main {
             }
         }
 
-        // Résultat final
+        // final result
         System.out.println("\n🎉 Quiz finished!");
         System.out.println("Your final score: " + score + "/" + questions.length);
 
