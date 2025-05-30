@@ -43,12 +43,25 @@ public class Main {
                 System.out.println(option);
             }
 
-            char answer;
-            do {
+            boolean validInput = false;
+            char answer = ' ';
+            while (!validInput) {
                 System.out.print("👉 Your answer (A/B/C): ");
-                String line = input.nextLine().trim().toUpperCase();
-                answer = line.isEmpty() ? ' ' : line.charAt(0);
-            } while (answer != 'A' && answer != 'B' && answer != 'C');
+                String inputLine = input.nextLine().trim().toUpperCase();
+
+                if (inputLine.length() != 1) {
+                    System.out.println("❗ Invalid input. Please enter A, B or C.");
+                    continue;
+                }
+
+                answer = inputLine.charAt(0);
+                if (answer == 'A' || answer == 'B' || answer == 'C') {
+                    validInput = true;
+                } else {
+                    System.out.println("❗ Invalid choice. Try again and please make sure to enter A, B, or C.");
+                }
+            }
+
 
             if (answer != answers[i]){
                 System.out.println("❌ Wrong. The correct answer was: " + answers[i]);
