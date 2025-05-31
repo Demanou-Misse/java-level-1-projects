@@ -7,7 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String decision;
 
-        System.out.println("Welcome to your personal calculator! 😊");
+        System.out.println("\nWelcome to your personal calculator! 😊");
         System.out.println("*********************************");
 
         do {
