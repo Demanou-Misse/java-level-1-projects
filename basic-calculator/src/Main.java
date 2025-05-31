@@ -22,7 +22,7 @@ public class Main {
             double b = input.nextDouble();
             input.nextLine();
 
-            System.out.println("Available operations:");
+            System.out.println("\nAvailable operations:");
             System.out.println("    1. Addition");
             System.out.println("    2. Subtraction");
             System.out.println("    3. Multiplication");
