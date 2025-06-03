@@ -1,6 +1,6 @@
 # Java Level 1 Projects 🚀
 
-Welcome! This repository contains six beginner-level Java projects I created as part of my learning journey. These projects focus on core concepts such as variables, conditions, loops, arrays, user input, and basic logic.
+Welcome! This repository contains **seven** beginner-level Java projects I created as part of my learning journey. These projects focus on core concepts such as variables, conditions, loops, arrays, user input, and basic logic.
 
 Each project has its own folder, description, and source code. Feel free to explore, run, and even improve them!
 
@@ -96,6 +96,25 @@ Each project has its own folder, description, and source code. Feel free to expl
 
 ---
 
+### ✅ 7. Multi-Number Operations (Sum, Average, Min, Max)
+**Goals:**
+- Handle arrays, user input, loops, and simple statistics
+
+**What it does:**
+- The user enters a list of numbers
+- The program computes and displays either:
+  - the sum
+  - the average
+  - the minimum
+  - the maximum
+- Fully interactive and repeatable
+
+📌 **Concepts Used:** `arrays`, `for`, `Scanner`, `double`, `Math`, `switch`, `loops`, `validation`
+
+📂 Folder: `/multi-number-operations`
+
+---
+
 ## 🛠️ How to Run the Projects
 
 1. Open your favorite IDE (like IntelliJ, Eclipse, or VS Code).
@@ -115,5 +134,3 @@ Feel free to connect or ask questions:
 ---
 
 Happy coding! 👨‍💻
-
-
